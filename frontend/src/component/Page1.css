@@ -1,0 +1,54 @@
+/* src/components/Home.css */
+.home-container {
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(0.95);
+    transition: transform 0.3s;
+  }
+  
+  .feature:hover {
+    transform: scale(1);
+  }
+  
+  .feature h2 {
+    margin-bottom: 10px;
+  }
+  
+  .navigation {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navigation a {
+    color: #fff;
+    background: green;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(0.95);
+    transition: transform 0.3s;
+  }
+  
+  .navigation a:hover {
+    transform: scale(1);
+    background: green;
+  }
+  

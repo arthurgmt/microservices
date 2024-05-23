@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app-frontend:
+    container_name: flask-backend-c
+    image: flask-backend-i
+    build:
+      context: .
+    ports:
+      - 8000:8000

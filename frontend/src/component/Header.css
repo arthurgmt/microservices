@@ -1,0 +1,92 @@
+/* Header.css */
+.header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.nav a:hover {
+  color: green;
+}
+
+.nav .active {
+  color: green;
+  border-bottom: 2px solid lightgreen;
+}
+
+.notification {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #c82d2d86;
+}
+
+/* form */
+.nav form input{
+  font-weight: bold;
+  padding: 0.5rem 0.9rem ;
+  margin-left: 0.4rem;
+  border-radius: 20px;
+	border: 2px solid #9c9797;
+  font-size: 12px; 
+}
+
+/* login */
+.nav form button{
+  margin-left: 1rem;
+  padding: 0.5rem 0.9rem;
+  background: white;
+	border: 2px solid #9c9797;
+	color: black;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.nav form button:hover{
+  background: #ce5757c6;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow: none;
+}
+
+/* logout */
+.nav button{
+  margin-left: 1rem;
+  padding: 0.5rem 0.9rem;
+  background: white;
+	border: 2px solid #9c9797;
+	color: black;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.nav button:hover{
+  background: #ce5757c6;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow: none;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: -100px;
+}

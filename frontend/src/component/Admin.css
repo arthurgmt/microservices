@@ -1,0 +1,66 @@
+
+.admin-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.admin-title {
+    text-align: center;
+    color: lightgreen;
+    padding-bottom: 2rem;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: lightgreen;
+    color: #282c34;
+}
+
+.admin-text {
+    padding: 1rem;
+    text-align: left;
+}
+
+.admin-tr {
+    border-bottom: 1px solid lightgreen;
+}
+
+tr:nth-child(even) {
+    background-color: #333842;
+}
+
+select {
+    background-color: #333842;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+}
+
+select:focus {
+    outline: none;
+}
+
+.admin-button {
+    background-color: white;
+    color: #282c34;
+    border: solid 1px green;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.admin-button:hover {
+    background-color: #282c34;
+    color: white;
+    border-color: black;
+}

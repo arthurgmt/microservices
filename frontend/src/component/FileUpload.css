@@ -1,0 +1,169 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start; 
+  height: 100vh; 
+}
+
+.drop-part {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 100vh;
+}
+
+.dropzone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  margin: 40px;
+  width: 560px; 
+  height: 300px; 
+  background-color: #f8f9fa;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.all-documents {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-end;
+  margin: 40px;
+  margin-left: 2%; 
+  width: calc(100% - 400px); 
+  background-color: #f8f9fa;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.statpanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 40px;
+  width: 560px; 
+  height: 300px; 
+  background-color: #f8f9fa;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.document-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.document-info {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.document-other-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.document-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.document-info button {
+  padding: 0.4rem 0.6rem;
+  margin-right: 0.4rem;
+  background: white;
+	border: 2px solid #9c9797;
+	color: black;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.document-buttons form {
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+
+.document-info button:hover {
+  background: #ce5757c6;
+	color: #fff;
+	border: 1px solid #eee;
+	text-shadow: none;
+}
+
+
+.delete-button {
+  margin-right: 10px;
+}
+
+.document-preview {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.document-preview img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-right: 20%;
+  padding: 10px;
+}
+
+.download {
+  margin-left: 1rem;
+  padding: 0.5rem 0.9rem;
+  background: white;
+  border: 2px solid #9c9797;
+  color: black;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #333;
+}
+
+.tags-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tag {
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  background-color: #0fab17;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: bold;
+  color: white;
+}
+
+.tag:hover {
+  background-color: #ddd;
+}
